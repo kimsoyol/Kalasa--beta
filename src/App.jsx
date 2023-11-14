@@ -1,3 +1,4 @@
+import About from "./components/About"
 import Events from "./components/Events"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Events />
+      <About />
       <Footer />
     </>
   )
