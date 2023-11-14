@@ -12,3 +12,8 @@ body {
   border: 1.5px solid #F7E4C3;
   padding: 18px 36px;
 }
+
+.quicklinks > a {
+  display: block;
+  padding-bottom: 8px;
+}

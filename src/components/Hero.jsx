@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="bg-Black relative">
-      <img src="src/assets/GalleryBG.png" alt="" className="opacity-10" />
+      <img src="src/assets/GalleryBG.png" alt="" className="opacity-20" />
       <div className="text-center absolute -translate-y-1/2 -translate-x-1/2 top-2/4 left-1/2">
         <p className="font-bold text-[88px] text-white font-serif">
           Kalasa Art Space
