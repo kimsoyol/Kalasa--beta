@@ -22,10 +22,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`w-full fixed top-0 left-0 right-0 z-[60] px-10 pt-3 ${colorChange ? "bg-Merio text-Black shadow-lg" : "bg-transparent text-White"} transition-all duration-600`}>
+    <nav className={`w-full fixed top-0 z-[60] px-10 pt-3 ${colorChange ? "bg-Merio text-Black shadow-lg" : "bg-transparent text-White"} transition-all duration-600`}>
       <div className={`flex justify-between items-center`}>
         <div>
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="max-sm:w-28"/>
         </div>
         <div>
           <ul className="hidden md:flex md:items-center list-none gap-8 px-10">

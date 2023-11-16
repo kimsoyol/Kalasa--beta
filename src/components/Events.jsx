@@ -4,11 +4,14 @@ const Events = () => {
   const events = useSelector((state) => state.event.events);
 
   return (
-    <section className="px-20 py-32">
-      <div className="text-Brown flex justify-between">
-        <p className="font-bold text-5xl font-serif">Upcoming Events</p>
-        <button className="border-[1.5px] font-medium font-serif text-lg px-9 py-4">
+    <section className="px-4 sm:px-20 py-8 sm:py-32">
+      <div className="text-Brown flex justify-center sm:justify-between">
+        <p className="font-bold text-xl md:text-5xl font-serif">Upcoming Events</p>
+        <button className="hidden md:block border-[1.5px] font-medium font-serif text-lg px-9 py-4">
           View All Exhibitions →
+        </button>
+        <button className="block md:hidden">
+          See all
         </button>
       </div>
       <div className="flex gap-5 pt-20 justify-evenly flex-wrap text-Brown">
